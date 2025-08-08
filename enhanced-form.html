@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #4745e0;
+            margin: 0;
+            padding: 0px;
+        }
+        header, footer {
+            background-color: #333;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        :read-only {
+            background-color: #f0f0f0;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        </style>
+        </head>
+        <body>
+        <!-- HEADER -->
+        <header>
+            <h1>Enhanced HTML Form</h1>
+            <P> Welcome to the website that is showcasing practical habits, daily and weekly routines and resources that can help you stay focused and productive guiding your journey toward personal growth</P>
+        </header>
+        <!-- MAIN CONTENT -->
+        <main>
+            <section>
+                <h2>What to do</h2>
+                <p>Here is a list of things to be done for personal growth using ordered and unordered list.</p>
+                <ul>
+                    <li>keep fit</li>
+                    <li>spiritual growth</li>
+                    <li>explore different opportunites</li>
+                    <li>learn new skills</li>
+                    <li>make new friends</li>
+                    <li>read more books</li>
+                    <li>travel to new places</li>
+                </ul>
+                <h3>Ordered List</h3>
+                <p>List of plans to implement on my to do list using using ordered list.</p>
+                <ol>
+                    <li>Wake up early</li>
+                    <li>Read Bible and pray</li>
+                    <li>Exercise</li>
+                    <li>Read a book oftenly</li>
+                    <li>Practice coding</li>
+                    <li>Prepare healthy meals</li>
+                    <li>Spend time with family</li>
+                    <li>Reflect on the day</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Table of my schedule</h2>
+                <p>Here is a table that shows to schedule for efficient implementation.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DAY</th>
+                            <th>TIME</th>
+                            <th>ACTIVITIES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>5:00am-6:00am</td>
+                            <td>Morning devotion</td>
+                        
+
+    </body></tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>6:00am-7:00am</td>
+                            <td>Jogging</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>7:00am-8:00am</td>
+                            <td>Reading</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>8:00am-9:00am</td>
+                            <td>Coding practice</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>9:00am-10:00am</td>
+                            <td>Family time</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>10:00am-11:00am</td>
+                            <td>Reading books</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>11:00am-12:00pm</td>
+                            <td>Church Day</td>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Media Section</h2>
+                <p>Here is an image, and audio that briefly shows a little snippet of how you are going to implement my plans.</p>
+                <figure>
+                    <img src="C:\Users\user\Downloads\Placeholder_view_vector.svg">
+                </figure>
+                <audio controls>
+                    <source src="C:\Users\user\Downloads\epic.mp3">
+                    Your browser do not support the audio element
+                </audio>
+            </section>
+
+            <!-- FORM SECTION -->
+            <section id="form-section">
+                <h2>Enhanced Form Section</h2>
+                <form id="enhancedForm">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label for="full name">Full Name:</label>
+                        <input type="text" id="Full name" name="fullname" placeholder="Enter your full name" required minilength="3" autocomplete="Name">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="hilda@gmail.com" required autocomplete="email">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </fieldset>
+
+                    <!--Account Details-->
+                    <fieldset>
+                        <legend>Account Details</legend>
+                        <label for="Username">Username (readonly):</label>
+                        <input type="text" id="Username" name="username" value="User123" readonly class="raedonly">
+                        <label for="Password">Password:</label>
+                        <input type="password" id="password" name="password" required minilength="6" placeholder="Enter password">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="07xx-xxx-xxx" pattern="[0-9] {10}" required>
+                    </fieldset>
+
+                    <!--Feedback-->
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        <label for="topic">Topic:</label>
+                        <select id="topic" name="topic" required>
+                            <option value="">-- Select a Topic --</option>
+                            <option value="Website">Website</option>
+                            <option value="Services">Services</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        
+                        <label for="message">Your message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message..." required></textarea>
+                    </fieldset>
+
+                    <!--Consent-->
+                    <fieldset>
+                        <legend>Consent</legend>
+                        <label>
+                            <input type="checkbox" name="agree" required> I get to agree to the terms and conditions. 
+                        </label>
+                    </fieldset>
+
+                    <!--Submit-->
+                    <input type="Submit" value="Submit Form">
+                    </form>
+            </section>
+                        
+                       
+                        </main>
+
+                        <!--footer-->
+                        <footer>
+                        <p>&Copy; 2025 My Multi-Section Webpage | Designed by me!</p>
+                        </footer>
+                        </body>
+ </html>
+
+                      
+
+
